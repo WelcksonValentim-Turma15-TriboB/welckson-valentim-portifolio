@@ -1,6 +1,9 @@
+import Header from "../Components/Header";
+
 function Profile() {
   return (
     <section>
+      <Header />
       <h1>Quem sou eu</h1>
       <p>Engenheiro mecânico com mais de 5 anos de atuação,
         decidi investir em um sonho antigo de atuar com tecnologia.
