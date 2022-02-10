@@ -1,4 +1,5 @@
 import Header from "../Components/Header";
+
 function Knowledge() {
   return (
     <main>

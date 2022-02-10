@@ -4,6 +4,7 @@ import ProfileProvider from './Context/ProfileProvider';
 import Profile from './Pages/Profile';
 import Contact from './Pages/Contatc';
 import Knowledge from './Pages/Knowledge';
+import Projects from './Pages/Projects';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route exact path='/' component={ Profile } />
         <Route exact path='/contact' component={ Contact } />
         <Route exact path='/knowledge' component={ Knowledge } />
+        <Route exact path='/projects' component={ Projects } />
       </Switch>
     </ProfileProvider>
   );

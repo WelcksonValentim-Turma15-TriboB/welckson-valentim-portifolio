@@ -1,5 +1,6 @@
 import Header from "../Components/Header";
 import GitHub_Logo_White from '../images/GitHub_Logo_White.png';
+import Footer from "../Components/Footer";
 
 function Contact() {
     return (
@@ -29,6 +30,7 @@ function Contact() {
             alt='logo Instagram'
             src='https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white' />
         </a>
+        <Footer />
       </section>
     );
   }
