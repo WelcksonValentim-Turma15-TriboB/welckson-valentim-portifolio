@@ -5,6 +5,8 @@ import Profile from './Pages/Profile';
 import Contact from './Pages/Contatc';
 import Knowledge from './Pages/Knowledge';
 import Projects from './Pages/Projects';
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
