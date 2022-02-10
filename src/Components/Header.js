@@ -10,6 +10,9 @@ function Header() {
       <Link to='/contact'>
         <h4>Contato</h4>
       </Link>
+      <Link to='/knowledge'>
+        <h4>Conhecimentos</h4>
+      </Link>
     </header>
   );
 }
