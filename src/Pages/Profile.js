@@ -5,8 +5,8 @@ function Profile() {
   return (
     <main>
       <Header />
-      <section>
-        <h1>Quem sou eu</h1>
+      <section className='profile'>
+      <h1>Quem é Welckson?</h1>
         <p>Engenheiro mecânico com mais de 5 anos de atuação,
           decidi investir em um sonho antigo de atuar com tecnologia.
           Possuo experiência com gestão, gerência de projetos, planeamento,
