@@ -143,12 +143,18 @@
     font-weight: 300;
   }
 
-  .knowledge img {
+  .plat-knowledge {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 40vw;
-    border-radius: 5px;
+    justify-content: space-between;
+    width: 95vw;
+    border-bottom: solid 1px #0a0a0a;
+  }
+
+  .knowledge img {
+    width: 35vw;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
   }
 
 }
