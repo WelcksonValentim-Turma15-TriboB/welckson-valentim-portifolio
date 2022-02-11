@@ -92,6 +92,65 @@
     font-weight: 600;
   }
 
+  .contact {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    background-image: linear-gradient(to right, #c9c7e9 , #3f3f3f);
+  }
+
+  .contact h1 {
+    color: #FFFF;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .contact img {
+    width: 18vw;
+    margin-top: 30px;
+    border-radius: 15px;
+  }
+
+  .knowledge {
+    flex-direction: column;
+    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .knowledge h1 {
+    color: #0a0a0a;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .knowledge h3 {
+    color: #0a0a0a;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .knowledge li {
+    list-style-type: none;
+    color: #0a0a0a;
+    font-size: 18px;
+    font-family: Comic;
+    font-weight: 300;
+  }
+
+  .knowledge img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40vw;
+    border-radius: 5px;
+  }
+
 }
 
 @media ( min-width : 361px ) {
