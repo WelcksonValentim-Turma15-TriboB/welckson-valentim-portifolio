@@ -4,11 +4,15 @@ function Projects() {
   return (
     <main>
       <Header />
-      <h1>Em construção - Projetos em atualização</h1>
-      <iframe
-        title="Gif em obras, via GIPHY"
-        src="https://giphy.com/embed/iIAYEKtLy0yG7TacbC"
-      />
+      <section className='projects'>
+        <h1>Em construção !!!</h1>
+        <iframe
+          width="480" height="270"
+          title="Gif em obras, via GIPHY"
+          src="https://giphy.com/embed/iIAYEKtLy0yG7TacbC"
+        />
+        <h4>Projetos em fase de atualização, para publicação.</h4>
+      </section>
     </main>
   );
 }
