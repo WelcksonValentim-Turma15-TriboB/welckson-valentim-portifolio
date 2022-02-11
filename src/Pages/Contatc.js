@@ -1,6 +1,9 @@
-import Header from "../Components/Header";
-import GitHub_Logo_White from '../images/GitHub_Logo_White.png';
-import Footer from "../Components/Footer";
+import Header from '../Components/Header';
+import social_github_icon from '../images/social_github_icon.png';
+import linkedin_logo_icon from '../images/linkedin_logo_icon.png';
+import office365_outlook_icon from '../images/office365_outlook_icon.png';
+import instagram_logo_icon from '../images/instagram_logo_icon.png';
+import Footer from '../Components/Footer';
 
 function Contact() {
     return (
@@ -8,27 +11,16 @@ function Contact() {
         <Header />
         <h1>Contatos</h1>
         <a href='//www.linkedin.com/in/welcksonvalentim' target="_blank" rel="noreferrer noopener">
-          <img 
-            alt='logo Linkedin' 
-            src='https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white'
-          />
+          <img alt='logo Linkedin' src={ linkedin_logo_icon } />
         </a>
         <a href='https://github.com/WelcksonValentim-Turma15-TriboB' target="_blank" rel="noreferrer noopener">
-          <img 
-            alt='logo GitHub'
-            width='200px'
-            src={ GitHub_Logo_White }
-          />
+          <img alt='logo GitHub' src={ social_github_icon } />
         </a>
         <a href='mailto:wellvalentim@hotmail.com?'>
-          <img 
-            alt='logo Email'
-            src='https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white' />
+          <img alt='logo Email' src={ office365_outlook_icon } />
         </a>
         <a href='hhtps://instagram.com/welcksonvalentim' target='_blank' rel='noreferrer noopener'>
-          <img
-            alt='logo Instagram'
-            src='https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white' />
+          <img alt='logo Instagram' src={ instagram_logo_icon } />
         </a>
         <Footer />
       </section>
