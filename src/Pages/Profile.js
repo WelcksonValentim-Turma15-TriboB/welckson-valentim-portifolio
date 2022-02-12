@@ -1,4 +1,5 @@
 import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 import photo_welckson from '../images/photo_welckson.jpeg';
 
 function Profile() {
@@ -16,6 +17,7 @@ function Profile() {
         <img width='250px' alt='Welckson photography' src={ photo_welckson } />
         <h4>Welckson Valentim</ h4>
       </section>
+      <Footer />
     </main>
   );
 }

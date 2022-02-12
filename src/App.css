@@ -7,6 +7,7 @@
     text-align: center;
     width: 100vw;
     height: 50px;
+    border-radius:5px;
   }
 
   .links-header {
@@ -33,6 +34,7 @@
 
   .profile {
     margin: 10px;
+    height: 90vh;
   }
 
   .profile h1 {
@@ -70,11 +72,13 @@
   }
 
   .projects {
+    height: 90vh;
     margin: 10px;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius:5px;
   }
 
   .projects h1 {
@@ -97,8 +101,9 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    height: 100vh;
+    height: 90vh;
     background-image: linear-gradient(to right, #c9c7e9 , #3f3f3f);
+    border-radius:5px;
   }
 
   .contact h1 {
@@ -119,6 +124,7 @@
     margin: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border-radius:5px;
   }
 
   .knowledge h1 {
@@ -147,14 +153,35 @@
     display: flex;
     justify-content: space-between;
     width: 95vw;
-    border-bottom: solid 1px #0a0a0a;
+    border-bottom: solid 1px #666666;
   }
 
   .knowledge img {
     width: 35vw;
+    height: auto;
     display: flex;
     justify-content: right;
     margin-bottom: 10px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFF;
+    height: 35px;
+    border-bottom: solid 1px #666666;
+    background-color: #7c7878;
+    border-radius:5px;
+  }
+
+  .footer h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 600;
   }
 
 }

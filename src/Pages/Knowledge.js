@@ -1,4 +1,5 @@
 import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 import Visual_Studio_Code_icon from '../images/Visual_Studio_Code_icon.png';
 import HTML_CSS_JS_Bootstrap from '../images/HTML_CSS_JS_Bootstrap.png';
 import nodejs_MYSQL_docker from '../images/nodejs_MYSQL_docker.png';
@@ -45,6 +46,7 @@ function Knowledge() {
           <img alt='logo nodejs_MYSQL_docker' src={ nodejs_MYSQL_docker } />
         </section>
       </section>
+      <Footer />
     </main>
   );
 }

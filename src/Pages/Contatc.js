@@ -1,4 +1,5 @@
 import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 import social_github_icon from '../images/social_github_icon.png';
 import linkedin_logo_icon from '../images/linkedin_logo_icon.png';
 import office365_outlook_icon from '../images/office365_outlook_icon.png';
@@ -23,6 +24,7 @@ function Contact() {
             <img alt='logo Instagram' src={ instagram_logo_icon } />
           </a>
         </section>
+        <Footer />
       </ main>
     );
   }

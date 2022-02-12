@@ -1,4 +1,5 @@
 import Header from "../Components/Header";
+import Footer from '../Components/Footer';
 
 function Projects() {
   return (
@@ -13,6 +14,7 @@ function Projects() {
         />
         <h4>Projetos em fase de atualização, para publicação.</h4>
       </section>
+      <Footer />
     </main>
   );
 }
