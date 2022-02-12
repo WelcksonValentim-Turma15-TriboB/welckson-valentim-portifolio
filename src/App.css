@@ -1,4 +1,4 @@
-@media ( max-width : 390px ) {
+@media (min-width: 10px) and (max-width: 390px) {
   .header {
     background-color: #111111;
     display: flex;
@@ -34,7 +34,7 @@
 
   .profile {
     margin: 10px;
-    height: 90vh;
+    height: 100vh;
   }
 
   .profile h1 {
@@ -186,6 +186,203 @@
 
 }
 
-@media ( min-width : 361px ) {
+@media (min-width: 390px) and (max-width: 2000px) {
+  .header {
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 60px;
+    border-radius:5px;
+  }
 
+  .links-header {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  .header h3 {
+    color: #FFFF;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+  .header h4 {
+    color: #FFFF;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: sans-serif;
+  }
+
+  .header h4:hover {
+    color: rgb(223, 219, 219);
+    font-size: 16px;
+    background-color: #1a1919;
+    font-weight: 300;
+    font-family: sans-serif;
+  }
+
+  .profile {
+    margin: 25px;
+    height: 75vh;
+  }
+
+  .profile h1 {
+    color: #0a0a0a;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .profile p {
+    color: #0a0a0a;
+    font-size: 22px;
+    font-family: Comic;
+    font-weight: 300;
+    text-align: justify;
+  }
+
+  .profile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90vw;
+    border-radius: 10px;
+  }
+
+  .profile h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: #0a0a0a;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .projects {
+    height: 90vh;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+  }
+
+  .projects h1 {
+    color: #0a0a0a;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .projects h4 {
+    margin-top: 10px;
+    color: #0a0a0a;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .contact {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 85vh;
+    background-image: linear-gradient(to right, #c9c7e9 , #3f3f3f);
+    border-radius:5px;
+  }
+
+  .contact h1 {
+    color: #FFFF;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .contact img {
+    width: 5vw;
+    margin-top: 30px;
+    border-radius: 15px;
+  }
+
+  .contact img:hover {
+    width: 6vw;
+    border: solid 1px #d6d6d6;
+    border-radius: 5px;
+  }
+
+  .knowledge {
+    flex-direction: column;
+    margin: 10px;
+    border-radius:5px;
+  }
+
+  .knowledge h1 {
+    color: #0a0a0a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .knowledge h3 {
+    margin-bottom: 10px;
+    color: #0a0a0a;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  .knowledge li {
+    margin-bottom: 10px;
+    list-style-type: none;
+    color: #0a0a0a;
+    font-size: 20px;
+    font-family: Comic;
+    font-weight: 300;
+  }
+
+  .plat-knowledge {
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+    border-bottom: solid 1px #666666;
+  }
+
+  .knowledge img {
+    width: 15vw;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFF;
+    height: 35px;
+    border-bottom: solid 1px #666666;
+    background-color: #7c7878;
+    border-radius:5px;
+  }
+
+  .footer h4 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
 }
