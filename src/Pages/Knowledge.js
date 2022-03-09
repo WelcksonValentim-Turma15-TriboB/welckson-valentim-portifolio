@@ -1,6 +1,6 @@
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import Visual_Studio_Code_icon from '../images/Visual_Studio_Code_icon.png';
+import softwares from '../images/softwares.JPG';
 import HTML_CSS_JS_Bootstrap from '../images/HTML_CSS_JS_Bootstrap.png';
 import nodejs_MYSQL_docker from '../images/nodejs_MYSQL_docker.png';
 
@@ -18,7 +18,7 @@ function Knowledge() {
             <li>GitHub</li>
             <li>MySQL Workbench</li>
           </ul>
-          <img alt='logo Visual Studio code' src={ Visual_Studio_Code_icon } />
+          <img alt='logo softwares' src={ softwares } />
         </section>
       </section>
       <section className='knowledge'>
