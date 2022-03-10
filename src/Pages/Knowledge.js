@@ -8,22 +8,20 @@ function Knowledge() {
   return (
     <main>
       <Header />
-      <section className='knowledge'>
       <h1>Conhecimentos</h1>
-        <h3>Plataformas</h3>
+      <section className='knowledge'>
         <section className='plat-knowledge'>
+        <h3>Softwares</h3>
           <ul>
-            <li>Visual Studio code</li>
+            <li>Visual Studio Code</li>
             <li>Git</li>
             <li>GitHub</li>
             <li>MySQL Workbench</li>
           </ul>
           <img alt='logo softwares' src={ softwares } />
         </section>
-      </section>
-      <section className='knowledge'>
-        <h3>Tecnologias - Front-End</h3>
         <section className='plat-knowledge'>
+        <h3>Tecnologias - Front-End</h3>
           <ul>
             <li>React</li>
             <li>React Testing library</li>
@@ -34,10 +32,8 @@ function Knowledge() {
           </ul>
           <img alt='logo HTML_CSS_JS_Bootstrap' src={ HTML_CSS_JS_Bootstrap } />
         </section>
-      </section>
-      <section className='knowledge'>
-        <h3>Tecnologias - Back-End</h3>
         <section className='plat-knowledge'>
+        <h3>Tecnologias - Back-End</h3>
           <ul>
             <li>Docker</li>
             <li>SQL</li>
@@ -45,7 +41,7 @@ function Knowledge() {
           </ul>
           <img alt='logo nodejs_MYSQL_docker' src={ nodejs_MYSQL_docker } />
         </section>
-      </section>
+        </section>
       <Footer />
     </main>
   );

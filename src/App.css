@@ -333,7 +333,8 @@
   }
 
   .knowledge {
-    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
     margin: 10px;
     border-radius:5px;
   }
@@ -366,9 +367,11 @@
 
   .plat-knowledge {
     display: flex;
-    justify-content: space-between;
-    width: 95vw;
-    background-color: #ddd6d6;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 30vw;
+    background-color: #d4d3d3;
     border: solid 1px #979595;
   }
 
