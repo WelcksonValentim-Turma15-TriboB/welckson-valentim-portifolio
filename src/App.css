@@ -1,4 +1,4 @@
-@media (max-width: 300px) {
+@media (max-width: 390px) {
   .header {
     background-color: #111111;
     display: flex;
@@ -188,7 +188,7 @@
 
 }
 
-@media (min-width: 200px) and (max-width: 2000px) {
+@media (min-width: 390px) and (max-width: 2000px) {
   .header {
     background-color: #111111;
     display: flex;
@@ -224,9 +224,12 @@
 
   .header h4:hover {
     color: rgb(223, 219, 219);
+    background-color: #070707;
     font-size: 1em;
     font-weight: 600;
     font-family: sans-serif;
+    border: solid 1px #d6d6d6;
+    border-radius: 5px;
   }
 
   .profile {
@@ -255,6 +258,12 @@
     margin-right: auto;
     max-width: 90vw;
     border-radius: 10px;
+  }
+
+  .profile img:hover {
+    border-radius: 5px;
+    box-shadow: 10px -10px 5px #070707;
+    -webkit-box-shadow: 10px -10px 5px #070707;
   }
 
   .profile h4 {
@@ -318,12 +327,14 @@
 
   .contact img:hover {
     width: 5em;
-    border: solid 1px #d6d6d6;
     border-radius: 5px;
+    box-shadow: 10px -10px 5px #070707;
+    -webkit-box-shadow: 10px -10px 5px #070707;
   }
 
   .knowledge {
-    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
     margin: 10px;
     border-radius:5px;
   }
@@ -356,15 +367,20 @@
 
   .plat-knowledge {
     display: flex;
-    justify-content: space-between;
-    width: 95vw;
-    border-bottom: solid 1px #666666;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 30vw;
+    background-color: #d4d3d3;
+    border: solid 1px #979595;
   }
 
   .knowledge img {
     width: 10em;
+    margin: 5px;
     display: flex;
     justify-content: right;
+    align-self: center;
     margin-bottom: 10px;
   }
 
