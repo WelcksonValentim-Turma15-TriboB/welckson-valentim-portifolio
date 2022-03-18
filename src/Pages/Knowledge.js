@@ -1,8 +1,8 @@
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 import softwares from '../images/softwares.JPG';
-import HTML_CSS_JS_Bootstrap from '../images/HTML_CSS_JS_Bootstrap.png';
-import nodejs_MYSQL_docker from '../images/nodejs_MYSQL_docker.png';
+import frontEnd from '../images/frontEnd.JPG';
+import backEnd from '../images/backEnd.JPG';
 
 function Knowledge() {
   return (
@@ -30,7 +30,7 @@ function Knowledge() {
             <li>CSS</li>
             <li>Bootstrap</li>
           </ul>
-          <img alt='logo HTML_CSS_JS_Bootstrap' src={ HTML_CSS_JS_Bootstrap } />
+          <img alt='logo frontEnd' src={ frontEnd } />
         </section>
         <section className='plat-knowledge'>
         <h3>Tecnologias - Back-End</h3>
@@ -38,8 +38,9 @@ function Knowledge() {
             <li>Docker</li>
             <li>SQL</li>
             <li>Node.JS</li>
+            <li>TypeScript</li>
           </ul>
-          <img alt='logo nodejs_MYSQL_docker' src={ nodejs_MYSQL_docker } />
+          <img alt='logo backEnd' src={ backEnd } />
         </section>
         </section>
       <Footer />
