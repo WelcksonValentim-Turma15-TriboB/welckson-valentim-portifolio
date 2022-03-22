@@ -14,7 +14,7 @@ function Contact() {
           <a href='//www.linkedin.com/in/welcksonvalentim' target="_blank" rel="noreferrer noopener">
             <img alt='logo Linkedin' src={ linkedin_logo_icon } />
           </a>
-          <a href='https://github.com/WelcksonValentim-Turma15-TriboB' target="_blank" rel="noreferrer noopener">
+          <a href='https://github.com/welcksonvalentim' target="_blank" rel="noreferrer noopener">
             <img alt='logo GitHub' src={ social_github_icon } />
           </a>
           <a href='mailto:wellvalentim@hotmail.com?'>
