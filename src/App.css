@@ -152,9 +152,8 @@
     flex-direction: column;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    height: 90vh;
-    background-image: linear-gradient(to right, #c9c7e9 , #3f3f3f);
+    height: 85vh;
+    background-image: linear-gradient(to right, #777676 , #030303);
     border-radius:5px;
   }
 
@@ -163,12 +162,34 @@
     font-size: 35px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .contact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    text-decoration: none;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .contact h4 {
+    margin-left: 10px;
+    color: #FFFF;
+    text-decoration: none;
   }
 
   .contact img {
-    width: 30vw;
-    margin-top: 30px;
+    width: 4em;
+    margin-left: 20px;
     border-radius: 15px;
+  }
+
+  .contact a:hover {
+    background-color: #252525;
   }
 
   .knowledge {
@@ -410,7 +431,6 @@
     flex-direction: column;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     height: 85vh;
     background-image: linear-gradient(to right, #777676 , #030303);
     border-radius:5px;
@@ -421,19 +441,34 @@
     font-size: 35px;
     font-family: sans-serif;
     font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .contact a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    text-decoration: none;
+    border: 2px solid rgb(82, 81, 81);
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .contact h4 {
+    margin-left: 10px;
+    color: #FFFF;
+    text-decoration: none;
   }
 
   .contact img {
     width: 4em;
-    margin-top: 30px;
+    margin-left: 20px;
     border-radius: 15px;
   }
 
-  .contact img:hover {
-    width: 5em;
-    border-radius: 5px;
-    box-shadow: 10px -10px 5px #070707;
-    -webkit-box-shadow: 10px -10px 5px #b1b1b1;
+  .contact a:hover {
+    background-color: #252525;
   }
 
   .knowleg {
