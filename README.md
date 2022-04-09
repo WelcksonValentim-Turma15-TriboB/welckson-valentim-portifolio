@@ -24,7 +24,7 @@ https://portifolio-welckson_valentim.surge.sh/
 
 ### Ilustração da aplicação em funcionamento
 
-<img alt="Gif funcionamento da aplicação" width=400px src="src/images/portifolio.gif" />
+<img alt="Gif funcionamento da aplicação" width=400px src="src/images/protifolio.gif" />
 
 # Instruções caso deseje utilizar o projeto localmente
 1. Clone o repositório, com o comando:
